@@ -1,0 +1,1184 @@
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8f3df12b-1ae5-43af-9824-a8ed6c64ee58/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8f3df12b-1ae5-43af-9824-a8ed6c64ee58/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-streamprodwesteurope-euwe.streaming.media.azure.net/7384cedf-3ac3-4bb3-adf8-d0671e91e6eb/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-3fb370c3-8554-4bd2-b3e7-447b703baa1c-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/69eae701-f7ee-49af-9047-847c22190415/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 2083046 out of 796815920 bytes>
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/7c472ff1-8679-4453-8a1a-88a80a5a6467/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 283, in urlretrieve
+    reporthook(blocknum, bs, size)
+  File "download_videos.py", line 26, in show_progress
+    pbar.update(downloaded)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/site-packages/progressbar/progressbar.py", line 250, in update
+    raise ValueError('Value out of range')
+ValueError: Value out of range
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-83f44e75-6960-45ac-93f2-744e636545e1-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 283, in urlretrieve
+    reporthook(blocknum, bs, size)
+  File "download_videos.py", line 26, in show_progress
+    pbar.update(downloaded)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/site-packages/progressbar/progressbar.py", line 250, in update
+    raise ValueError('Value out of range')
+ValueError: Value out of range
+----------------------------------------------------------
+http://streamprod-westus-1-streamprodwestus-uswe.streaming.media.azure.net/e7a268b4-4d9b-4653-9f1e-27ceb015449d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 283, in urlretrieve
+    reporthook(blocknum, bs, size)
+  File "download_videos.py", line 26, in show_progress
+    pbar.update(downloaded)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/site-packages/progressbar/progressbar.py", line 250, in update
+    raise ValueError('Value out of range')
+ValueError: Value out of range
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/a77961c1-c61d-4150-9e45-356cf91c428d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-streamprodwesteurope-euwe.streaming.media.azure.net/f0783478-625b-40e6-b7a4-0a0641970f23/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-59c2d805-f899-4681-9555-febfc2d79ce0-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/032cde30-aec4-43f1-bd3a-d57f8d63ad9d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/da7a219e-7e1e-402d-ad60-9d338853085c/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 1633768596 out of 2486420750 bytes>
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/49c5144d-34ef-44be-83ad-aa8e96341383/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 1412905 out of 1379181055 bytes>
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-67a6ff81-a36d-4c7b-b058-c17aca1f40fa-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/f2d0f100-8c95-4e8b-a92b-e3b142d6279a/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-d29537b2-3db6-47fd-8a2e-b29c88068de2-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/69f16dc7-fbc2-41b5-867c-707d5126ee7d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/f950beca-ca04-409b-aed2-b9aabce7412b/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-19a7bad1-1f32-4854-88d7-ecf92e43a03b-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-3d06e6b2-d6e7-4a86-a49c-a9104b3ac46b-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-38a79157-1f1f-4192-a17e-ae5a1c294e86-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-2f5f2d9e-23b1-4aa0-af79-a493ee22c1d7-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/35c84474-c40a-4760-8529-a1107eece824/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8d338e40-b213-4c19-a779-cdf76fdd7850/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/032cde30-aec4-43f1-bd3a-d57f8d63ad9d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-67a6ff81-a36d-4c7b-b058-c17aca1f40fa-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8d338e40-b213-4c19-a779-cdf76fdd7850/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-d29537b2-3db6-47fd-8a2e-b29c88068de2-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/69f16dc7-fbc2-41b5-867c-707d5126ee7d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/f950beca-ca04-409b-aed2-b9aabce7412b/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-19a7bad1-1f32-4854-88d7-ecf92e43a03b-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-3d06e6b2-d6e7-4a86-a49c-a9104b3ac46b-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-38a79157-1f1f-4192-a17e-ae5a1c294e86-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-2f5f2d9e-23b1-4aa0-af79-a493ee22c1d7-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-3fb370c3-8554-4bd2-b3e7-447b703baa1c-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/35c84474-c40a-4760-8529-a1107eece824/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8f3df12b-1ae5-43af-9824-a8ed6c64ee58/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-streamprodwesteurope-euwe.streaming.media.azure.net/7384cedf-3ac3-4bb3-adf8-d0671e91e6eb/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/a77961c1-c61d-4150-9e45-356cf91c428d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-streamprodwesteurope-euwe.streaming.media.azure.net/f0783478-625b-40e6-b7a4-0a0641970f23/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-59c2d805-f899-4681-9555-febfc2d79ce0-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/f2d0f100-8c95-4e8b-a92b-e3b142d6279a/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-1-streamprodwesteurope-euwe.streaming.media.azure.net/0b33bd03-712c-4e0e-84fc-e432034717fa/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 544297616 out of 6251712868 bytes>
+----------------------------------------------------------
+http://streamprod-westeurope-1-streamprodwesteurope-euwe.streaming.media.azure.net/dc5664a8-f2df-4782-95ed-5cdcc7c21b5f/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 2798366796 out of 4160941187 bytes>
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/daeb8918-99bc-47ed-9dfb-835dd88b9a5f/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 288, in urlretrieve
+    % (read, size), result)
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 5024792576 out of 5636911686 bytes>
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/a77961c1-c61d-4150-9e45-356cf91c428d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/69f16dc7-fbc2-41b5-867c-707d5126ee7d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/35c84474-c40a-4760-8529-a1107eece824/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-3d06e6b2-d6e7-4a86-a49c-a9104b3ac46b-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-67a6ff81-a36d-4c7b-b058-c17aca1f40fa-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/f950beca-ca04-409b-aed2-b9aabce7412b/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8d338e40-b213-4c19-a779-cdf76fdd7850/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/8f3df12b-1ae5-43af-9824-a8ed6c64ee58/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-streamprodwesteurope-euwe.streaming.media.azure.net/f0783478-625b-40e6-b7a4-0a0641970f23/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-38a79157-1f1f-4192-a17e-ae5a1c294e86-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-19a7bad1-1f32-4854-88d7-ecf92e43a03b-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-d29537b2-3db6-47fd-8a2e-b29c88068de2-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westeurope-streamprodwesteurope-euwe.streaming.media.azure.net/7384cedf-3ac3-4bb3-adf8-d0671e91e6eb/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-59c2d805-f899-4681-9555-febfc2d79ce0-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-2f5f2d9e-23b1-4aa0-af79-a493ee22c1d7-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-westus-streamprodwestus-uswe.streaming.media.azure.net/f2d0f100-8c95-4e8b-a92b-e3b142d6279a/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+https://livestream-videos-prod.s3-us-west-2.amazonaws.com/stream-3fb370c3-8554-4bd2-b3e7-447b703baa1c-s3.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------
+http://streamprod-eastus-streamprodeastus-usea.streaming.media.azure.net/032cde30-aec4-43f1-bd3a-d57f8d63ad9d/output.mp4
+Traceback (most recent call last):
+  File "download_videos.py", line 36, in get_slices
+    urllib.request.urlretrieve(url, tmp_name, show_progress)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 531, in open
+    response = meth(req, response)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 569, in error
+    return self._call_chain(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/ssd-playpen/home/adyasha/anaconda3/lib/python3.7/urllib/request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+----------------------------------------------------------

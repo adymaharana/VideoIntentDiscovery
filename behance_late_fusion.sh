@@ -1,27 +1,40 @@
 #!/bin/bash
 
-OUTPUT_ROOT=./out/unimodal/both
-SCRIPT=./scripts/run_unimodal_ner.py
+SCRIPT=./scripts/run_multimodal_ner.py
+OUTPUT_ROOT=./out/multimodal/both
 
-if [ "$1" = "--multimodal" ]; then
-  echo "Using multi-modal model"
-  SCRIPT=./scripts/run_multimodal_ner.py
-  OUTPUT_ROOT=./out/multimodal/both
+FEATURE_TYPE=$1
+if [ "$1" = "2d" ]; then
+  echo "Using 2D ResNet features"
+  FEATURE_DIR=$2
+  FEAT_MAX_LEN=16
+  FEAT_DIM=2048
+elif [ "$1" = "3d" ]; then
+    echo "Using 3D ResNeXt features"
+  FEATURE_DIR=$2
+  FEAT_MAX_LEN=16
+  FEAT_DIM=2048
+elif [ "$1" = "slowfast" ]; then
+    echo "Using SlowFast features"
+  FEATURE_DIR=$2
+  FEAT_MAX_LEN=16
+  FEAT_DIM=2304
 fi
 
-GPUID=$2
+GPUID=$3
 echo "Run on GPU $GPUID"
 
 # data
 # PROJECT_ROOT=$(dirname "$(readlink -f "$0")")/..
 PROJECT_ROOT=.
-DATA_ROOT=$PROJECT_ROOT/data/intent/semi/
+DATA_ROOT=$PROJECT_ROOT/data/intent/both
+OUTPUT_ROOT=./out/multimodal/both
 
 export PYTHONPATH=$PYTHONPATH:/ssd-playpen1/adyasha/projects/Behance/
 
 # model
 MODEL_TYPE=roberta
-MODEL_NAME=roberta-large
+MODEL_NAME=roberta-base
 
 ADAM_EPS=1e-8
 ADAM_BETA1=0.9
@@ -38,6 +51,7 @@ LABEL_MODE=soft
 PERIOD=450
 HP_LABEL=5.9
 
+
 EPOCH=5
 SEED=0
 WEIGHT_DECAY=1e-4
@@ -45,20 +59,16 @@ WEIGHT_DECAY=1e-4
 # params
 LR=1e-5
 
-for LR in 5e-5 1e-5 1e-6
+
+for LR in 5e-5 1e-5 1e-4
 do
-#	for TRAIN_BATCH in 32 16
-    for TRAIN_BATCH in 8
+	for TRAIN_BATCH in 16
 	do
-		for GRAD_ACC_STEPS in 2 4
+		for GRAD_ACC_STEPS in 1 2
 		do
 			# output
 			TOTAL_BATCH_SIZE=$((TRAIN_BATCH*GRAD_ACC_STEPS))
-			OUTPUT=$OUTPUT_ROOT/semi/${MODEL_NAME}_${TOTAL_BATCH_SIZE}_${LR}/
-
-	#		[ -e $OUTPUT/script  ] || mkdir -p $OUTPUT/script
-	#		cp -f $(readlink -f "$0") $OUTPUT/script
-	#		rsync -ruzC --exclude-from=$PROJECT_ROOT/.gitignore --exclude 'dataset' --exclude 'pretrained_model' --exclude 'outputs' $PROJECT_ROOT/ $OUTPUT/src
+			OUTPUT=$OUTPUT_ROOT/late_fusion_${FEATURE_TYPE}/${MODEL_NAME}_${TOTAL_BATCH_SIZE}_${LR}/
 
 			python $SCRIPT --data_dir $DATA_ROOT \
 			  --model_type $MODEL_TYPE --model_name_or_path $MODEL_NAME \
@@ -83,8 +93,13 @@ do
 			  --seed $SEED \
 			  --max_seq_length 70 \
 			  --overwrite_output_dir \
-			  --eval_all_checkpoints
+			  --eval_all_checkpoints \
+			  --late_fusion \
+			  --feature_dir $FEATURE_DIR \
+			  --feature_type $FEATURE_TYPE \
+			  --video_feature_max_len $FEAT_MAX_LEN \
+			  --video_embed_dim $FEAT_DIM \
+			  --clip_length 5
 		done
-		  
 	done
 done

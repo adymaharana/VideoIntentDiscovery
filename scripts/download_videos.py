@@ -28,6 +28,7 @@ def show_progress(block_num, block_size, total_size):
         pbar.finish()
         pbar = None
 
+
 def get_slices(url, timestamps, out_dir):
     timestamps.sort(key=lambda y: y[0])
     tmp_name = os.path.join(out_dir, url.replace("/", "__"))
